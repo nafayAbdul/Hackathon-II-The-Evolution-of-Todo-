@@ -1,0 +1,10 @@
+[project]
+name = "console-todo-app"
+version = "0.1.0"
+description = "A console-based todo application that runs entirely in memory"
+readme = "README.md"
+requires-python = ">=3.13"
+license = {text = "MIT"}
+
+[project.scripts]
+todo-app = "src.main:main"
